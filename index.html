@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tabuada Simples Multiplicação</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="area-calc">
+        <div class="calc">
+          <input type="number" name="txn1" id="txn1" />
+          <span>x</span>
+          <input type="number" name="txn2" id="txn2" />
+        </div>
+
+        <div class="botao">
+          <input
+            type="button"
+            value="multiplicar"
+            onclick="operar()"
+            class="button"
+          />
+        </div>
+      </div>
+
+      <div id="result">Resultado</div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
